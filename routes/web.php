@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StudentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,12 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        "nama" => "Hansen Jonatan",
-        "role"=> "user",
+        "nama" => "Laravel",
+        "role"=> "admin",
         "buah" => ['pisang', 'jeruk', 'semangka', 'kiwi','mangga']
     ]);
 });
 
-Route::get('/about', function() {
-    return view('about');
-});
+Route::get('/students', [StudentController::class, 'index']); // ketika halaman student diakses menuju ke StudentController

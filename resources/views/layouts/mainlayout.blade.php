@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Whatever</a>
+          <a class="navbar-brand" href="#">Laravel</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,10 +21,10 @@
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="/students">Student</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/product">Whatever</a>
+                <a class="nav-link" href="/class">Class</a>
               </li>
           </div>
         </div>
